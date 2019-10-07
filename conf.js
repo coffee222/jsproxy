@@ -29,7 +29,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        [location.host]: 1,
+        'https://bestgu.github.io/proxy': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -37,9 +37,6 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        // 收费版（高权重）
-        'node-cfworker-2.etherdream.com': 4,
-
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
         'b.007.workers.dev': 1,
