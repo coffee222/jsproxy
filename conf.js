@@ -16,8 +16,7 @@ jsproxy_config({
       label: '香港节点',
       lines: {
         // 主机:权重
-        'node-aliyun-hk-1.etherdream.com:8443': 1,
-        'node-aliyun-hk-2.etherdream.com:8443': 2,
+        'node-aliyun-hk-2.etherdream.com:8443': 1,
       }
     },
     'demo-sg': {
@@ -29,7 +28,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        'https://proxy.beigu.workers.dev': 1,
+        ''node-aliyun-hk-1.etherdream.com:8443': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
