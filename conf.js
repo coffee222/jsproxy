@@ -28,7 +28,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        ''node-aliyun-hk-1.etherdream.com:8443': 1,
+        'node-aliyun-hk-1.etherdream.com:8443': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
